@@ -14,10 +14,8 @@ void PrintMassiv(int[] Mas)
 int[] GetMassiv (int[] Array)
 {
     int count = Array.Length;
-   // int MinPosition = 0;
     for (int i = 0; i < count - 1; i++)
     {
-       // int MinVariable = Array[i];
         for (int j = i + 1; j < count; j++)
         {
             if (Array[j] < Array[i])
